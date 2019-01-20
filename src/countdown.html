@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown to Love</title>
+	<link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Playfair+Display+SC|Syncopate" rel="stylesheet">
+	<style type="text/css">
+		.cover-container{
+			background-color: #232323;
+			height:100%;
+
+		}
+		#title{
+			font-family: 'Playfair Display SC', serif;
+			color: #fcfafa;
+			font-size: 15.8em;
+			line-height: 0.75em;
+			margin-bottom: 150px;
+			text-align: right;
+			padding: 0px 10px;
+		}
+		#countdown{
+			font-family: 'Playfair Display SC', serif;
+			/*font-family: 'Goudy Bookletter 1911', serif;
+			font-family: 'Syncopate', sans-serif;*/
+			color: #fcfafa;
+			padding: 0px 10px 110px 10px;
+		}
+		#countdown .time{
+			display: inline-block;
+			font-size: 22em;
+			line-height: 1em;
+			/*color: #9cc9ac;*/
+			
+		}
+		.unit{
+			display: inline-block;
+			font-size: 5em;
+			line-height: 1em;
+		}
+	</style>		
+	<script type="text/javascript" src="bundle.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			.countdown{
+
+			}
+		});
+	</script>
+</head>
+<body>
+	<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+		<div class="main">
+			<div id="title">
+				COUNT
+				DOWN 
+				TO 
+				SECRET
+			</div>
+			<div id="countdown">
+				<div><span id="hr" class="time">12</span><span class="unit">Hr</span></div>
+				<div><span id="min" class="time">10</span><span class="unit">Min</span></div>
+				<div><span id="sec" class="time">10</span><span class="unit">Sec</span></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
